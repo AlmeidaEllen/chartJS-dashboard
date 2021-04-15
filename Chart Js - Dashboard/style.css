@@ -1,0 +1,48 @@
+.meu-grafico {
+    width: 80%;
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+body {
+    font-family: 'Lexend', sans-serif;
+    margin: 0; 
+}
+
+.header {
+    background-color: #232323;
+    color: white;
+    overflow: auto; 
+    border-bottom: 3px solid rgb(89, 0, 255); 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto; 
+}
+
+.navbar {
+    float: right;
+    list-style: none; 
+
+}
+
+.titulo {
+    float: left;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.header .navbar li {
+    float: left; 
+    margin-left: 10px;
+    text-transform: uppercase; 
+}
+
+.destaque {
+    color:rgb(195, 0, 255);
+    border-bottom: 3px solid #d5b2fe;
+}
+
